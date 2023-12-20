@@ -1,6 +1,6 @@
-from django.db import models
 from core.models import BaseModel
 from django.contrib.auth import get_user_model
+from django.db import models
 from django.urls import reverse
 
 
@@ -73,7 +73,7 @@ class Post(BaseModel):
         on_delete=models.SET_NULL,
         null=True,
         verbose_name='Категория',
-        related_name='posts_category'
+        related_name='category_posts'
     )
     image = models.ImageField(
         'Фото', upload_to='post_images', blank=True

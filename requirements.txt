@@ -8,7 +8,9 @@ django_debug_toolbar==3.8.1
 Faker==12.0.1
 flake8==5.0.4
 flake8-docstrings==1.7.0
+flake8-isort==6.1.1
 iniconfig==2.0.0
+isort==5.13.2
 mccabe==0.7.0
 mixer==7.2.2
 packaging==23.0
